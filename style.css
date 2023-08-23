@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+
+.containre{
+    width: 100%;
+    height: 100vh;
+    background: rgb(240, 75, 10);
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.containre img{
+    width: 75%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 20px solid #fff;
+}
+.containre h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 90px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    color: #fff;
+}
+
+.quotes{
+    top: 60%;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    bottom: 15%;
+    color: rgb(233, 173, 10);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.linkhomepage ul{
+    list-style: none;
+    position: absolute;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.linkhomepage ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.linkhomepage ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.linkhomepage ul li a:hover{
+    background: #fff;
+    color: rgb(240, 75, 10);
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    color: rgba(255, 255, 255, 0.5);
+    background: rgb(240, 75, 10);
+}

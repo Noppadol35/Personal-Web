@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <link rel="icon" href="meteorite.png" type = "image">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>index</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="containre">
+            <img src="IMG_1019.JPG">
+            <h1 id="current-time"></h1>
+            <div class="quotes">
+                <p><h2>HAVE A GOOD DAY</h2></p>
+            </div>
+            <div class="linkhomepage">
+                <ul>
+                    <li><a href="Profile.html">HOMEPAGE</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="footer">
+            Copyright &copy;
+            <script>
+                document.write(new Date().getFullYear());
+            </script> Noppadol Promtas@project.kmutnb.ac.th, lnc. All Rights Reserved.
+        </div>
+    <script>
+        let time = document.getElementById("current-time");
+
+        setInterval(()=>{
+            let date = new Date();
+            let hours = date.getHours();
+            let minutes = date.getMinutes();
+            let seconds = date.getSeconds();
+            let ampm = hours >= 12 ? 'PM' : 'AM';
+            hours = hours % 12;
+            hours = hours ? hours : 12;
+            hours = hours < 10 ? '0' + hours : hours;
+            minutes = minutes < 10 ? '0' + minutes : minutes;
+            seconds = seconds < 10 ? '0' + seconds : seconds;
+            let strTime = hours + ':' + minutes + ':' + seconds + ' ' + ampm;
+            time.textContent = strTime;
+        }, 1000);
+    </script>
+    </body>
+</html>

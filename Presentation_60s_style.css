@@ -1,0 +1,181 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: bisque;
+}
+
+.video {
+    /* กำหนดคามกว้าง */
+    width: 10rem;
+    /* กำหนดความสูง */
+    height: 10rem;
+    /* กำหนดรูปแบบของ border-radius */
+    border-radius: 10px;
+    /* กำหนดรูปแบบของ box-shadow */
+    box-shadow: 0 0 50px 0 black;
+
+    margin-left: 270px;
+    margin-top: 50px;
+
+}
+
+.video iframe {
+    /* จัดอยู่ตรงกลาง */
+    display: flex;
+    margin-right: 19rem;
+
+    /* จัดให้มีขอบ */
+    border: 5px solid #fff;
+
+    /* จัดให้มีเงา */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+    /* จัดให้มีขอบโค้ง */
+    border-radius: 10px;
+}
+
+.linkbackpage ul{
+    justify-content: left;
+    align-items: left;
+    position: absolute;
+    top: auto;    
+    left: 10%;
+    bottom: 4%;
+    transform: translate(-60%);
+    list-style: none;
+    padding: 10px;
+}
+
+.linkbackpage ul li{
+    display: inline-block;
+    margin: 0 10px;
+    margin-right: 120px;
+}
+
+.linkbackpage ul li a{
+    text-decoration: none;
+    color: #000;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+.linkbackpage ul li a:hover{
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    border: 20px solid #fff;
+}
+
+.linknextpage ul{
+    justify-content: right;
+    align-items: right;
+    position: absolute;
+    top: auto;    
+    left: 90%;
+    bottom: 4%;
+    transform: translate(-60%);
+    list-style: none;
+    padding: 10px;
+}
+
+.linknextpage ul li{
+    display: inline-block;
+    margin-left: 250px;
+}
+
+.linknextpage ul li a{
+    text-decoration: none;
+    color: #000;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+.linknextpage ul li a:hover{
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    border: 20px solid #fff;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #000;
+    color: white;
+    text-align: center;
+}
+
+
+/* .linkbackpage ul{
+    justify-content: left;
+    align-items: left;
+    position: absolute;
+    top: auto;    
+    left: -6%;
+    bottom: 4%;
+    transform: translate(-60%);
+    list-style: none;
+    padding: 10px;
+}
+
+.linkbackpage ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.linkbackpage ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+.linkbackpage ul li a:hover{
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    border: 20px solid #fff;
+}
+
+.linknextpage ul{
+    justify-content: right;
+    align-items: right;
+    position: absolute;
+    top: auto;    
+    left: 128%;
+    bottom: 4%;
+    transform: translate(-60%);
+    list-style: none;
+    padding: 10px;
+}
+
+.linknextpage ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.linknextpage ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+.linknextpage ul li a:hover{
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    border: 20px solid #fff;
+} */
+
